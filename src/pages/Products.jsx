@@ -17,6 +17,9 @@ const Products = () => {
               <p className="product__info">{item.price}</p>
               <p className="product__info">{item.rating}</p>
             </div>
+            <button onClick={() => {
+              
+            }} className="product__button-delete">Delete</button>
           </div>
         ))}
       </div>
